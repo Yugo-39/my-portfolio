@@ -26,11 +26,11 @@ export default function Header() {
               <MenuIcon className="w-6 h-6" />
             </SheetTrigger>
             <SheetContent side="top" className="bg-black text-white">
-              <nav className="flex flex-col gap-6 mt-10 text-lg">
-                <Link href="/" className="hover:underline">Home</Link>
-                <Link href="/about" className="hover:underline">About</Link>
-                <Link href="/works" className="hover:underline">Works</Link>
-                <Link href="/contact" className="hover:underline">Contact</Link>
+              <nav className="flex flex-col items-center gap-6 mt-10 text-lg">
+                <Link href="/" className="hover:underline hover:text-yellow-400">Home</Link>
+                <Link href="/about" className="hover:underline hover:text-yellow-400">About</Link>
+                <Link href="/works" className="hover:underline hover:text-yellow-400">Works</Link>
+                <Link href="/contact" className="hover:underline hover:text-yellow-400">Contact</Link>
               </nav>
             </SheetContent>
           </Sheet>

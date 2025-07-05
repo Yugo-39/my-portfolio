@@ -43,10 +43,14 @@ export default function AboutPage() {
     福岡県北九州市出身の介護福祉士。
   </p>
 
-  <p className="text-white">
-    現在はWeb業界への転職を目指し、<br />
+ <p className="text-white text-base sm:text-lg leading-relaxed">
+  <span className="md:block">
+    現在はWeb業界への転職を目指し、
+  </span>
+  <span className="md:block">
     ReactやTypeScriptを用いたフロントエンド開発に挑戦中です。
-  </p>
+  </span>
+</p>
 
   <p className="text-cyan-400 font-semibold">
     “利用者様目線で誰にでもわかりやすいデザイン”

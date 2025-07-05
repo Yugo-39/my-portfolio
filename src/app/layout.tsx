@@ -6,6 +6,7 @@ import "./globals.css";
 import Header from "./components/Header";
 import ParticlesBackground from "@/app/components/ParticlesBackground";
 
+
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -31,6 +32,7 @@ export default function RootLayout({
         <div className="relative z-10">
           <Header />
           <main>{children}</main>
+         
         </div>
       </body>
     </html>
