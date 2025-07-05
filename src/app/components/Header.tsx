@@ -1,14 +1,41 @@
+'use client';
+
 import Link from "next/link";
+import { Sheet, SheetTrigger, SheetContent } from "@/components/ui/sheet";
+import { MenuIcon } from "lucide-react";
 
 export default function Header() {
   return (
-    <header className="bg-black text-white p-4">
-      <nav className="flex items-center justify-center gap-6" aria-label="Main Navigation">
-        <Link href="/" className="hover:underline">Home</Link>
-        <Link href="/about" className="hover:underline">About</Link>
-        <Link href="/works" className="hover:underline">Works</Link>
-        <Link href="/contact" className="hover:underline">Contact</Link>
-      </nav>
+    <header className="bg-black text-white px-4 py-3">
+      <div className="flex justify-between items-center max-w-6xl mx-auto">
+        {/* ロゴまたはタイトル */}
+        <div className="text-xl font-bold"></div>
+
+        {/* デスクトップメニュー */}
+    <nav className="hidden md:flex gap-6 text-base md:text-lg">
+  <Link href="/" className="hover:underline">Home</Link>
+  <Link href="/about" className="hover:underline">About</Link>
+  <Link href="/works" className="hover:underline">Works</Link>
+  <Link href="/contact" className="hover:underline">Contact</Link>
+</nav>
+
+        {/* スマホ用ハンバーガーメニュー */}
+        <div className="md:hidden">
+          <Sheet>
+            <SheetTrigger>
+              <MenuIcon className="w-6 h-6" />
+            </SheetTrigger>
+            <SheetContent side="top" className="bg-black text-white">
+              <nav className="flex flex-col gap-6 mt-10 text-lg">
+                <Link href="/" className="hover:underline">Home</Link>
+                <Link href="/about" className="hover:underline">About</Link>
+                <Link href="/works" className="hover:underline">Works</Link>
+                <Link href="/contact" className="hover:underline">Contact</Link>
+              </nav>
+            </SheetContent>
+          </Sheet>
+        </div>
+      </div>
     </header>
   );
 }
