@@ -1,21 +1,21 @@
+'use client';
 
+import React from 'react';
+import { motion } from 'framer-motion';
 
-export default function Home() {
+const Home: React.FC = () => {
   return (
-    <main className="p-8">
-      <h1 className="text-3xl font-bold">山田太郎のポートフォリオ</h1>
-      <p className="mt-4">フロントエンドエンジニアを目指して日々学習中！</p>
-
-      <div className="mt-8">
-        <h2 className="text-2xl font-semibold">主な制作物</h2>
-        <ul className="mt-4 space-y-4">
-          <li className="border p-4 rounded shadow">
-            <h3 className="text-xl font-bold">くじ引きアプリ</h3>
-            <p>ReactとTypeScriptで作ったアプリです</p>
-            <a href="https://example.com" className="text-blue-500 underline" target="_blank">見る</a>
-          </li>
-        </ul>
-      </div>
+    <main className="flex items-center justify-center h-screen bg-black">
+      <motion.h1
+        className="text-white text-5xl md:text-7xl font-bold"
+        initial={{ opacity: 0, y: 50 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 1.2, ease: "easeOut" }}
+      >
+        Yugo Iwaya
+      </motion.h1>
     </main>
   );
-}
+};
+
+export default Home;
