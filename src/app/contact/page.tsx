@@ -80,7 +80,7 @@ export default function ContactPage() {
           type="submit"
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.95 }}
-          className="bg-yellow-500 hover:bg-yellow-400 text-black font-bold py-3 px-6 rounded-lg transition duration-300 w-full"
+          className="bg-yellow-500 hover:bg-yellow-400 text-black font-bold py-3 px-6 rounded-lg transition duration-300 w-60"
         >
           {submitted ? 'Thanks! 🚀' : 'Send Message'}
         </motion.button>

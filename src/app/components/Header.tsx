@@ -16,6 +16,7 @@ export default function Header() {
   <Link href="/" className="hover:underline">Home</Link>
   <Link href="/about" className="hover:underline">About</Link>
   <Link href="/works" className="hover:underline">Works</Link>
+  <Link href="/pet" className="hover:underline"> Pets</Link>
   <Link href="/contact" className="hover:underline">Contact</Link>
 </nav>
 
@@ -30,6 +31,7 @@ export default function Header() {
                 <Link href="/" className="hover:underline hover:text-yellow-400">Home</Link>
                 <Link href="/about" className="hover:underline hover:text-yellow-400">About</Link>
                 <Link href="/works" className="hover:underline hover:text-yellow-400">Works</Link>
+                 <Link href="/pet" className="hover:underline"> Pets</Link>
                 <Link href="/contact" className="hover:underline hover:text-yellow-400">Contact</Link>
               </nav>
             </SheetContent>

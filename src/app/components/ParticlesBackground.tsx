@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 
 interface Star {
-  id: string; // ← string型に変更（UUIDにする）
+  id: string;
   x: number;
   y: number;
   size: number;
@@ -18,7 +18,7 @@ const ParticlesBackground = () => {
 
   useEffect(() => {
     const generated = Array.from({ length: 40 }).map((_, index) => ({
-      id: `${Date.now()}-${index}`, // ✅ 毎回ユニークなID
+      id: `${Date.now()}-${index}`,
       x: Math.random() * 100,
       y: Math.random() * 100,
       size: Math.random() * 3 + 1,
@@ -33,7 +33,7 @@ const ParticlesBackground = () => {
     <div className="fixed top-0 left-0 w-full h-full -z-10 bg-black overflow-hidden">
       {stars.map((star) => (
         <motion.div
-          key={star.id} // ✅ ユニークなIDを保証
+          key={star.id}
           className="absolute rounded-full"
           style={{
             width: `${star.size}px`,
