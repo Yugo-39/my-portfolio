@@ -1,4 +1,4 @@
-'use client'; // ✅ クライアントコンポーネント指定を忘れずに！
+'use client'; 
 
 import Image from 'next/image';
 import { motion } from 'framer-motion';

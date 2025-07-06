@@ -36,7 +36,8 @@ export default function WorksPage() {
           <div className="p-6">
             <h3 className="text-2xl font-bold mb-2">TODOアプリ</h3>
             <p className="text-yellow-300 text-sm mb-3">
-           シンプルなTODOアプリです。
+           シンプルなTODOアプリです。<br />
+           最初はタスクの完了と消去だけでしたが機能を追加していきました。
             </p>
             <p className="text-sm text-gray-400 mb-4">
               使用技術：HTML / CSS / JavaScript /
