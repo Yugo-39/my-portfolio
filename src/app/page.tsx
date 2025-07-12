@@ -13,19 +13,10 @@ const Home: React.FC = () => {
       {/* テキスト */}
       <div className="relative z-10 flex flex-col items-center justify-start h-full pt-32 text-center">
         <motion.h1
-          className="text-6xl md:text-8xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-purple-500 to-pink-500"
-          initial={{ opacity: 0, y: 50 }}
-          animate={{
-            opacity: 1,
-            y: 0,
-            rotate: [0, -2, 2, -2, 0],
-          }}
-          transition={{
-            duration: 1.5,
-            ease: "easeOut",
-            repeat: Infinity,
-            repeatDelay: 3,
-          }}
+          className="text-7xl md:text-9xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 via-yellow-300 to-yellow-200 "
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ duration: 2, delay: 1 }}
         >
           Yugo Iwaya
         </motion.h1>

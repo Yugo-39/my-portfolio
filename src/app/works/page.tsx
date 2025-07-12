@@ -5,13 +5,13 @@ import { motion } from "framer-motion";
 
 export default function WorksPage() {
   return (
-    <div className="min-h-screen text-yellow-400 px-6 py-20">
+    <div className="min-h-screen px-6 py-20 text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 via-yellow-300 to-yellow-200">
       {/* タイトル */}
       <motion.h2
         initial={{ opacity: 0, scale: 0.8 }}
         animate={{ opacity: 1, scale: 1 }}
         transition={{ duration: 1 }}
-        className="text-5xl font-extrabold tracking-widest text-center mb-16 starwars-font"
+        className="text-7xl sm:text-8xl font-extrabold tracking-widest text-center mb-16 "
       >
         WORKS
       </motion.h2>
@@ -27,7 +27,7 @@ export default function WorksPage() {
           className="bg-gray-900 rounded-xl overflow-hidden shadow-lg border border-yellow-500"
         >
           <Image
-            src="/images/todo.png" // ← あなたの画像に差し替え
+            src="/images/todo.png"
             alt="todo app"
             width={800}
             height={400}
@@ -71,7 +71,7 @@ export default function WorksPage() {
           className="bg-gray-900 rounded-xl overflow-hidden shadow-lg border border-yellow-500"
         >
           <Image
-            src="/images/Change.png" // ← あなたの画像に差し替え
+            src="/images/Change.png"
             alt="席替えアプリ"
             width={800}
             height={400}
@@ -113,7 +113,7 @@ export default function WorksPage() {
           className="bg-gray-900 rounded-xl overflow-hidden shadow-lg border border-yellow-500"
         >
           <Image
-            src="/images/quiz.png" // ← あなたの画像に差し替え
+            src="/images/quiz.png"
             alt=""
             width={800}
             height={400}
@@ -155,7 +155,7 @@ export default function WorksPage() {
           className="bg-gray-900 rounded-xl overflow-hidden shadow-lg border border-yellow-500"
         >
           <Image
-            src="/images/weather.png" // ← あなたの画像に差し替え
+            src="/images/weather.png"
             alt=""
             width={800}
             height={400}
@@ -195,7 +195,7 @@ export default function WorksPage() {
           className="bg-gray-900 rounded-xl overflow-hidden shadow-lg border border-yellow-500"
         >
           <Image
-            src="/images/dentaku.png" // ← あなたの画像に差し替え
+            src="/images/dentaku.png"
             alt=""
             width={800}
             height={400}
@@ -235,7 +235,7 @@ export default function WorksPage() {
           className="bg-gray-900 rounded-xl overflow-hidden shadow-lg border border-yellow-500"
         >
           <Image
-            src="/images/login.png" // ← あなたの画像に差し替え
+            src="/images/login.png"
             alt=""
             width={800}
             height={400}
