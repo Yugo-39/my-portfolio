@@ -20,7 +20,7 @@ export default function AboutPage() {
           initial={{ opacity: 0, x: -100 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 1.2 }}
-          className="rounded-full border-[8px] border-yellow-400 shadow-lg overflow-hidden w-64 h-64"
+          className="rounded-full border-[8px]  shadow-lg overflow-hidden w-64 h-64"
         >
           <Image
             src="/images/mg2.jpg"
@@ -37,12 +37,13 @@ export default function AboutPage() {
           transition={{ duration: 1.2 }}
           className="space-y-5 text-base sm:text-lg leading-relaxed w-full"
         >
-          <p className="text-5xl sm:text-6xl font-bold text-white">
+          <p className="text-2xl sm:text-1xl text-white mb-0 font-bold">岩谷 悠吾</p>
+          <p className="text-5xl sm:text-6xl font-bold text-white mb-15">
             Yugo Iwaya
           </p>
 
           <p className="text-white text-lg sm:text-xl">
-            福岡県北九州市出身の介護福祉士。
+           1994年生まれ、福岡県北九州市出身の介護福祉士。
           </p>
 
           <p className="text-white text-lg sm:text-xl leading-relaxed">
@@ -52,11 +53,9 @@ export default function AboutPage() {
             </span>
           </p>
 
-          <p className="text-purple-400 text-2xl sm:text-3xl font-bold">
-            “寄り添う気持ちをカタチにする”
-          </p>
 
-          <p className="text-cyan-400 text-2xl sm:text-3xl font-bold">
+
+          <p className=" text-bull text-2xl sm:text-3xl font-bold mt-10 mb-15">
             “直感的でシンプルな操作性と統一された
             <br />
             分かりやすいデザインを目指しています”

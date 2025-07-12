@@ -22,7 +22,7 @@ const Home: React.FC = () => {
         </motion.h1>
 
         <motion.h2
-          className="mt-4 text-2xl md:text-4xl text-white font-medium tracking-wide"
+          className="mt-4 text-2xl md:text-4xl text-stroke-white font-medium tracking-wide"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 2, delay: 1 }}
