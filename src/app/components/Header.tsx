@@ -27,6 +27,9 @@ export default function Header() {
           <Link href="/about" className="hover:underline hover:text-yellow-400">
             About
           </Link>
+           {/* <Link href="/skills" className="hover:underline hover:text-yellow-400">
+            Skills
+          </Link> */}
           <Link href="/works" className="hover:underline hover:text-yellow-400">
             Works
           </Link>
@@ -34,6 +37,7 @@ export default function Header() {
           <Link href="/contact" className="hover:underline hover:text-yellow-400">
             Contact
           </Link>
+
         </nav>
 
         {/* スマホ用ハンバーガーメニュー */}
