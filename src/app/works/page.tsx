@@ -151,7 +151,11 @@ export default function WorksPage() {
           <p className="text-yellow-300 text-base leading-relaxed mb-6">
             シンプルなクイズアプリです。
             <br />
-            React・Vite・TypeScriptの学習を兼ねて制作しました。
+            授業で制作したアプリに機能追加をしました。
+            <br />
+            ホーム画面 プログレスバー タイマーを追加。
+            <br />
+            開発期間： 2時間
           </p>
 
           <p className="text-sm text-gray-400 mb-4">
@@ -295,7 +299,6 @@ export default function WorksPage() {
             <br />
             HTMLとCSSの基本的なスタイリング練習として制作しました。
             <br />
-         
           </p>
 
           <p className="text-sm text-gray-400 mb-4">使用技術：HTML / CSS</p>
