@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 
 export default function WorksPage() {
   return (
-    <div className="min-h-screen px-6 py-20 text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 via-yellow-300 to-yellow-200">
+    <div className="min-h-screen px-6 py-20 text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 via-yellow-300 to-yellow-200 pt-50">
       {/* タイトル */}
       <motion.h2
         initial={{ opacity: 0, scale: 0.8 }}
@@ -24,7 +24,7 @@ export default function WorksPage() {
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
           viewport={{ once: true }}
-          className="bg-gray-900 rounded-xl shadow-2xl border-2 border-yellow-400 p-8 hover:scale-[1.02] transition duration-300"
+          className="bg-white/2  border border-white/10 rounded-2xl shadow-lg p-20 pt-20 transition duration-300"
         >
           <Image
             src="/images/todo.png"
@@ -76,7 +76,7 @@ export default function WorksPage() {
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
           viewport={{ once: true }}
-          className="bg-gray-900 rounded-xl shadow-2xl border-2 border-yellow-400 p-8 hover:scale-[1.02] transition duration-300"
+          className="bg-white/2 border border-white/10 rounded-2xl shadow-lg p-20 pt-20 transition duration-300"
         >
           <Image
             src="/images/Change.png"
@@ -135,7 +135,7 @@ export default function WorksPage() {
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
           viewport={{ once: true }}
-          className="bg-gray-900 rounded-xl shadow-2xl border-2 border-yellow-400 p-8 hover:scale-[1.02] transition duration-300"
+          className="bg-white/2 border border-white/10 rounded-2xl shadow-lg p-20 pt-20 transition duration-300"
         >
           <Image
             src="/images/quiz.png"
@@ -186,7 +186,7 @@ export default function WorksPage() {
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
           viewport={{ once: true }}
-          className="bg-gray-900 rounded-xl shadow-2xl border-2 border-yellow-400 p-8 hover:scale-[1.02] transition duration-300"
+          className="bg-white/2  border border-white/10 rounded-2xl shadow-lg p-20 pt-20 transition duration-300"
         >
           <Image
             src="/images/weather.png"
@@ -233,7 +233,7 @@ export default function WorksPage() {
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
           viewport={{ once: true }}
-          className="bg-gray-900 rounded-xl shadow-2xl border-2 border-yellow-400 p-8 hover:scale-[1.02] transition duration-300"
+          className="bg-white/2  border border-white/10 rounded-2xl shadow-lg p-20 pt-20 transition duration-300"
         >
           <Image
             src="/images/dentaku.png"
@@ -281,7 +281,7 @@ export default function WorksPage() {
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
           viewport={{ once: true }}
-          className="bg-gray-900 rounded-xl shadow-2xl border-2 border-yellow-400 p-8 hover:scale-[1.02] transition duration-300"
+          className="bg-white/2  border border-white/10 rounded-2xl shadow-lg p-20 pt-20 transition duration-300"
         >
           <Image
             src="/images/login.png"

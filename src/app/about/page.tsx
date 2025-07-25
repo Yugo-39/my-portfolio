@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 
 export default function AboutPage() {
   return (
-    <div className="min-h-screen px-6 py-16 flex flex-col items-center text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 via-yellow-300 to-yellow-200">
+    <div className="min-h-screen px-6 py-16 flex flex-col items-center text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 via-yellow-300 to-yellow-200 pt-50">
       <motion.h2
         initial={{ opacity: 0, scale: 0.8, rotateX: 90 }}
         animate={{ opacity: 1, scale: 1, rotateX: 0 }}
@@ -37,13 +37,15 @@ export default function AboutPage() {
           transition={{ duration: 1.2 }}
           className="space-y-5 text-base sm:text-lg leading-relaxed w-full"
         >
-          <p className="text-2xl sm:text-1xl text-white mb-0 font-bold">岩谷 悠吾</p>
+          <p className="text-2xl sm:text-1xl text-white mb-0 font-bold">
+            岩谷 悠吾
+          </p>
           <p className="text-5xl sm:text-6xl font-bold text-white mb-15">
             Yugo Iwaya
           </p>
 
           <p className="text-white text-lg sm:text-xl">
-           1994年生まれ、福岡県北九州市出身の介護福祉士。
+            1994年生まれ、福岡県北九州市出身の介護福祉士。
           </p>
 
           <p className="text-white text-lg sm:text-xl leading-relaxed">
@@ -52,8 +54,6 @@ export default function AboutPage() {
               ReactやNext.jsを用いたフロントエンド開発に挑戦中です。
             </span>
           </p>
-
-
 
           <p className=" text-bull text-2xl sm:text-3xl font-bold mt-10 mb-15">
             “直感的でシンプルな操作性と統一された

@@ -1,8 +1,8 @@
-'use client';
+"use client";
 
-import React from 'react';
-import { motion } from 'framer-motion';
-import ParticlesBackground from './components/ParticlesBackground';
+import React from "react";
+import { motion } from "framer-motion";
+import ParticlesBackground from "./components/ParticlesBackground";
 
 const Home: React.FC = () => {
   return (
@@ -11,7 +11,7 @@ const Home: React.FC = () => {
       <ParticlesBackground />
 
       {/* テキスト */}
-      <div className="relative z-10 flex flex-col items-center justify-start h-full pt-32 text-center">
+      <div className="relative z-10 flex flex-col items-center justify-center h-screen  text-center">
         <motion.h1
           className="text-7xl md:text-9xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 via-yellow-300 to-yellow-200 "
           initial={{ opacity: 0 }}
@@ -29,8 +29,6 @@ const Home: React.FC = () => {
         >
           Front-End Developer
         </motion.h2>
-
-
       </div>
     </main>
   );
