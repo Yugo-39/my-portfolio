@@ -8,7 +8,7 @@ import {
   SheetContent,
   SheetTitle,
 } from "@/components/ui/sheet";
-import { MenuIcon } from "lucide-react";
+import { MenuIcon, Rocket } from "lucide-react";
 
 export default function Header() {
   const [open, setOpen] = useState(false);
@@ -41,7 +41,10 @@ export default function Header() {
     >
       <div className="flex justify-between items-center max-w-6xl mx-auto">
         {/* ロゴまたはタイトル */}
-        <div className="text-xl font-bold">My-Portfolio</div>
+
+        <div className="flex items-center gap-1 text-xl font-bold">
+            <Rocket className="text-yellow-400" />
+          My-Portfolio</div>
 
         {/* デスクトップメニュー */}
         <nav className="hidden md:flex gap-10 py-2 text-base md:text-lg">
