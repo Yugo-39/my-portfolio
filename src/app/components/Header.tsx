@@ -35,9 +35,12 @@ export default function Header() {
           >
             About
           </Link>
-          {/* <Link href="/skills" className="hover:underline hover:text-yellow-400">
+          <Link
+            href="/skills"
+            className="px-4 py-2 rounded-xl border border-white/30 bg-white/10 backdrop-blur text-white shadow-lg hover:bg-white/20 transition hover:text-yellow-400"
+          >
             Skills
-          </Link> */}
+          </Link>
           <Link
             href="/works"
             className="px-4 py-2 rounded-xl border border-white/30 bg-white/10 backdrop-blur text-white shadow-lg hover:bg-white/20 transition hover:text-yellow-400"

@@ -1,45 +1,63 @@
-// app/skills/page.tsx
 "use client";
 
 import { motion } from "framer-motion";
 
-const skills = [
-  { name: "HTML", level: 90 },
-  { name: "CSS", level: 85 },
-  { name: "JavaScript", level: 80 },
-  { name: "React", level: 75 },
-  { name: "TypeScript", level: 65 },
-  { name: "Git / GitHub", level: 70 },
-  { name: "Tailwind CSS", level: 80 },
-  { name: "Next.js", level: 70 },
-];
-
 export default function SkillPage() {
   return (
-    <div className="min-h-screen bg-black px-6 py-20 text-white">
+    <div className="min-h-screen px-6 py-20 text-white">
       <motion.h2
         initial={{ opacity: 0, y: -40 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8 }}
-        className="text-5xl md:text-6xl font-extrabold text-center mb-16 text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 via-orange-400 to-red-500"
+        className="text-7xl md:text-8xl font-extrabold text-center mb-20 text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 via-yellow-300 to-yellow-200 pt-30 pb-10"
       >
         SKILLS
       </motion.h2>
 
-      <div className="max-w-4xl mx-auto space-y-10">
-        {skills.map((skill, i) => (
-          <div key={i}>
-            <p className="mb-2 text-lg font-semibold text-yellow-300">{skill.name}</p>
-            <div className="w-full h-4 bg-gray-700 rounded overflow-hidden">
-              <motion.div
-                className="h-full bg-yellow-400 rounded"
-                initial={{ width: 0 }}
-                animate={{ width: `${skill.level}%` }}
-                transition={{ duration: 1 + i * 0.1 }}
-              />
-            </div>
-          </div>
-        ))}
+      <div className="max-w-3xl mx-auto space-y-16 text-center text-white">
+        {/* 言語 */}
+        <section>
+          <h3 className="text-4xl font-bold text-yellow-300 mb-4">Languages</h3>
+          <ul className="space-y-2 text-xl leading-relaxed">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>TypeScript</li>
+          </ul>
+        </section>
+
+        {/* ライブラリ / フレームワーク */}
+        <section>
+          <h3 className="text-4xl font-bold text-yellow-300 mb-4">
+            Libraries / Frameworks
+          </h3>
+          <ul className="space-y-2 text-xl leading-relaxed">
+            <li>React</li>
+            <li>Next.js</li>
+            <li>Tailwind CSS</li>
+          </ul>
+        </section>
+        {/* UI*/}
+        <section>
+          <h3 className="text-4xl font-bold text-yellow-300 mb-4">
+            UI / Design Tools
+          </h3>
+          <ul className="space-y-2 text-xl leading-relaxed">
+            <li>shadcn/ui</li>
+            <li>Chakra ui</li>
+            <li>Motion</li>
+            <li>Material Design</li>
+            <li>Lucide Icon</li>
+            <li>Figma</li>
+          </ul>
+        </section>
+        {/* ツール */}
+        <section>
+          <h3 className="text-4xl font-bold text-yellow-300 mb-4">Tools</h3>
+          <ul className="space-y-2 text-xl leading-relaxed">
+            <li>Git / GitHub</li>
+          </ul>
+        </section>
       </div>
     </div>
   );
