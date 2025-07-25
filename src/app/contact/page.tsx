@@ -21,7 +21,7 @@ export default function ContactPage() {
   return (
     <section className="min-h-screen  text-white px-4 py-16 flex flex-col items-center justify-center">
       <motion.h2
-        className="text-7xl md:text-8xl font-bold mb-10 text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 via-yellow-300 to-yellow-200"
+        className="text-7xl md:text-8xl font-bold mb-10 text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 via-yellow-300 to-yellow-200 pt-20"
         initial={{ opacity: 0, y: -30 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6 }}

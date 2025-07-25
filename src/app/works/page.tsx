@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import { motion } from "framer-motion";
-
+import { SendHorizontal } from "lucide-react";
 export default function WorksPage() {
   return (
     <div className="min-h-screen px-6 py-20 text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 via-yellow-300 to-yellow-200 pt-50">
@@ -56,8 +56,9 @@ export default function WorksPage() {
             <a
               href="https://zippy-manatee-ba187d.netlify.app/"
               target="_blank"
-              className="text-cyan-400 font-bold hover:text-cyan-300 transition"
+              className="flex items-center gap-1 text-cyan-400 font-bold hover:text-cyan-300 transition"
             >
+              <SendHorizontal className="w-4 h-4" />
               デモを見る
             </a>
             <a
@@ -115,8 +116,9 @@ export default function WorksPage() {
             <a
               href="https://roaring-bonbon-310d09.netlify.app/"
               target="_blank"
-              className="text-cyan-400 font-bold hover:text-cyan-300 transition"
+              className="flex items-center gap-1 text-cyan-400 font-bold hover:text-cyan-300 transition"
             >
+               <SendHorizontal className="w-4 h-4" />
               デモを見る
             </a>
             <a
@@ -166,8 +168,9 @@ export default function WorksPage() {
             <a
               href="https://beamish-marshmallow-92d7d2.netlify.app/"
               target="_blank"
-              className="text-cyan-400 font-bold hover:text-cyan-300 transition"
+              className="flex items-center gap-1 text-cyan-400 font-bold hover:text-cyan-300 transition"
             >
+               <SendHorizontal className="w-4 h-4" />
               デモを見る
             </a>
             <a
@@ -213,8 +216,9 @@ export default function WorksPage() {
             <a
               href="https://classy-clafoutis-50599f.netlify.app/"
               target="_blank"
-              className="text-cyan-400 font-bold hover:text-cyan-300 transition"
+              className="flex items-center gap-1 text-cyan-400 font-bold hover:text-cyan-300 transition"
             >
+               <SendHorizontal className="w-4 h-4" />
               デモを見る
             </a>
             <a
@@ -261,8 +265,9 @@ export default function WorksPage() {
             <a
               href="https://glittery-strudel-761578.netlify.app/"
               target="_blank"
-              className="text-cyan-400 font-bold hover:text-cyan-300 transition"
+              className="flex items-center gap-1 text-cyan-400 font-bold hover:text-cyan-300 transition"
             >
+               <SendHorizontal className="w-4 h-4" />
               デモを見る
             </a>
             <a
@@ -307,8 +312,9 @@ export default function WorksPage() {
             <a
               href="https://chic-beijinho-7c9c51.netlify.app/"
               target="_blank"
-              className="text-cyan-400 font-bold hover:text-cyan-300 transition"
+              className="flex items-center gap-1 text-cyan-400 font-bold hover:text-cyan-300 transition"
             >
+               <SendHorizontal className="w-4 h-4" />
               デモを見る
             </a>
             <a
