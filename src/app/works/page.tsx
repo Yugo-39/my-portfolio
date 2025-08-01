@@ -118,7 +118,7 @@ export default function WorksPage() {
               target="_blank"
               className="flex items-center gap-1 text-cyan-400 font-bold hover:text-cyan-300 transition"
             >
-               <SendHorizontal className="w-4 h-4" />
+              <SendHorizontal className="w-4 h-4" />
               デモを見る
             </a>
             <a
@@ -170,7 +170,7 @@ export default function WorksPage() {
               target="_blank"
               className="flex items-center gap-1 text-cyan-400 font-bold hover:text-cyan-300 transition"
             >
-               <SendHorizontal className="w-4 h-4" />
+              <SendHorizontal className="w-4 h-4" />
               デモを見る
             </a>
             <a
@@ -218,7 +218,7 @@ export default function WorksPage() {
               target="_blank"
               className="flex items-center gap-1 text-cyan-400 font-bold hover:text-cyan-300 transition"
             >
-               <SendHorizontal className="w-4 h-4" />
+              <SendHorizontal className="w-4 h-4" />
               デモを見る
             </a>
             <a
@@ -267,7 +267,7 @@ export default function WorksPage() {
               target="_blank"
               className="flex items-center gap-1 text-cyan-400 font-bold hover:text-cyan-300 transition"
             >
-               <SendHorizontal className="w-4 h-4" />
+              <SendHorizontal className="w-4 h-4" />
               デモを見る
             </a>
             <a
@@ -314,7 +314,7 @@ export default function WorksPage() {
               target="_blank"
               className="flex items-center gap-1 text-cyan-400 font-bold hover:text-cyan-300 transition"
             >
-               <SendHorizontal className="w-4 h-4" />
+              <SendHorizontal className="w-4 h-4" />
               デモを見る
             </a>
             <a
@@ -327,6 +327,53 @@ export default function WorksPage() {
           </div>
         </motion.div>
         {/* 追加の作品カードはここにコピーして増やせます */}
+        <motion.div
+          initial={{ opacity: 0, y: 50 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8 }}
+          viewport={{ once: true }}
+          className="bg-white/2  border border-white/10 rounded-2xl shadow-lg p-20 pt-20 transition duration-300"
+        >
+          <Image
+            src="/images/weather2.png"
+            alt="天気予報アプリ"
+            width={800}
+            height={400}
+            className="w-full h-48 object-contain mb-6 rounded-md"
+          />
+          <h3 className="text-3xl font-extrabold text-white mb-4">
+            スライドショー型天気予報アプリ
+          </h3>
+
+          <p className="text-yellow-300 text-base leading-relaxed mb-6">
+            このアプリは、現在地の天気・気温・場所名をリアルタイムに取得して、
+            <br />
+            その状況に合った背景画像を自動で切り替えて表示するスライドショー型天気アプリです。
+            <br />
+          </p>
+
+          <p className="text-sm text-gray-400 mb-4">
+            使用技術：位置情報API OpenWeatherMap API Unsplash API Bootstrap
+            Icons{" "}
+          </p>
+
+          <div className="flex gap-6">
+            <a
+              href="https://timely-lollipop-335188.netlify.app/"
+              target="_blank"
+              className="text-cyan-400 font-bold hover:text-cyan-300 transition"
+            >
+              デモを見る
+            </a>
+            <a
+              href="https://github.com/Yugo-39/weather-app-react-vite.git"
+              target="_blank"
+              className="text-gray-400 hover:text-white transition"
+            >
+              GitHub
+            </a>
+          </div>
+        </motion.div>
       </div>
     </div>
   );
