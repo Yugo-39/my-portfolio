@@ -406,7 +406,7 @@ export default function WorksPage() {
 
           <div className="flex gap-6">
             <a
-              href="https://lustrous-starship-06b56b.netlify.app/"
+              href="https://regal-salmiakki-afe98b.netlify.app/"
               target="_blank"
               className="text-cyan-400 font-bold hover:text-cyan-300 transition"
             >
