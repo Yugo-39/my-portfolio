@@ -45,7 +45,6 @@ export default function WorksPage() {
             <br />
             タスクの入力時間の習得、キーワード検索、ダークモード機能を実装しています。
             <br />
-            開発期間：1日
           </p>
 
           <p className="text-sm text-gray-400 mb-4">
@@ -105,7 +104,6 @@ export default function WorksPage() {
             <br />
             縦と横の列数を設定できます。
             <br />
-            開発期間：一週間
           </p>
 
           <p className="text-sm text-gray-400 mb-4">
@@ -157,7 +155,6 @@ export default function WorksPage() {
             <br />
             ホーム画面 プログレスバー タイマーを追加。
             <br />
-            開発期間： 2時間
           </p>
 
           <p className="text-sm text-gray-400 mb-4">
@@ -392,11 +389,10 @@ export default function WorksPage() {
           <h3 className="text-3xl font-extrabold text-white mb-4">SIBINU</h3>
 
           <p className="text-yellow-300 text-base leading-relaxed mb-6">
-            このアプリは柴犬と宇宙をテーマにした背景から柴犬を探し出すゲームです。
+            このアプリ背景から柴犬を探し出し図鑑を完成させるゲームです。
             <br />
-            対象ユーザー 子供から大人まで 全年齢対象 犬好き・柴犬愛好家
-            パズルゲーム好き 宇宙・SF好き 脳トレ・集中力向上を求める人
-            隙間時間にリラックスしたい人
+            対象ユーザー 子供から大人まで 全年齢対象 犬好き
+            脳トレ・集中力向上を求める人 隙間時間にリラックスしたい人
             <br />
           </p>
 

@@ -43,13 +43,14 @@ export default function Header() {
         {/* ロゴまたはタイトル */}
 
         <div className="flex items-center gap-1 text-xl font-bold">
-            <Rocket className="text-yellow-400" />
-          My-Portfolio</div>
+          <Rocket className="text-yellow-400" />
+          My-Portfolio
+        </div>
 
         {/* デスクトップメニュー */}
         <nav className="hidden md:flex gap-10 py-2 text-base md:text-lg">
-          {["/", "/about", "/skills", "/works", "/contact"].map((path, i) => {
-            const label = ["Home", "About", "Skills", "Works", "Contact"][i];
+          {["/", "/about", "/skills", "/works"].map((path, i) => {
+            const label = ["Home", "About", "Skills", "Works"][i];
             return (
               <Link
                 key={label}
@@ -71,20 +72,16 @@ export default function Header() {
             </SheetTrigger>
             <SheetContent side="top" className="bg-black text-white">
               <nav className="flex flex-col items-center gap-6 mt-10 text-lg">
-                {["Home", "About", "Skills", "Works", "Contact"].map(
-                  (label, i) => (
-                    <Link
-                      key={label}
-                      href={
-                        ["/", "/about", "/skills", "/works", "/contact"][i]
-                      }
-                      onClick={handleClose}
-                      className="hover:underline hover:text-yellow-400"
-                    >
-                      {label}
-                    </Link>
-                  )
-                )}
+                {["Home", "About", "Skills", "Works"].map((label, i) => (
+                  <Link
+                    key={label}
+                    href={["/", "/about", "/skills", "/works"][i]}
+                    onClick={handleClose}
+                    className="hover:underline hover:text-yellow-400"
+                  >
+                    {label}
+                  </Link>
+                ))}
               </nav>
             </SheetContent>
           </Sheet>
