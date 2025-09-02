@@ -107,13 +107,60 @@ Next.js / React / TypeScript / Tailwind CSS / Lucide Icons / Framer Motion
 
 ```bash
 # 例：本ポートフォリオ or SIBAINU
-git clone https://github.com/Yugo-39/TS-siba-app.git
+git clone https://github.com/Yugo-39/my-portfolio.git
 cd TS-siba-app
 npm install
 npm run dev
 # http://localhost:3000 を開く
 
 ---
-
+📁 ディレクトリ構造
+my-portfolio/
+├── public/                     # 静的ファイル
+│   └── images/                 # 作品のサムネイル・素材
+│       ├── Change.png
+│       ├── dentaku.png
+│       ├── dog.png
+│       ├── login.png
+│       ├── mg.jpg
+│       ├── mg2.jpg
+│       ├── quiz.png
+│       ├── todo.png
+│       ├── weather.png
+│       └── weather2.png
+│
+├── src/                        # アプリ本体
+│   └── app/                    # Next.js App Router
+│       ├── about/              # Aboutページ
+│       │   └── page.tsx
+│       ├── contact/            # Contactページ
+│       │   └── page.tsx
+│       ├── skills/             # Skillsページ
+│       │   └── page.tsx
+│       ├── works/              # Worksページ
+│       │   └── page.tsx
+│       ├── components/         # 共通コンポーネント
+│       │   ├── Footer.tsx
+│       │   ├── Header.tsx
+│       │   └── ParticlesBackground.tsx
+│       ├── components/ui/      # UI系（shadcn/uiなど）
+│       │   └── sheet.tsx
+│       ├── favicon.ico
+│       ├── globals.css         # グローバルスタイル
+│       ├── layout.tsx          # 全体レイアウト
+│       └── page.tsx            # Homeページ
+│
+├── lib/                        # （必要なら）ユーティリティ関数
+│
+├── .gitignore
+├── components.json             # shadcn/ui 設定ファイル
+├── eslint.config.mjs           # ESLint 設定
+├── next-env.d.ts               # TypeScriptの型補完
+├── next.config.ts              # Next.js 設定
+├── package.json
+├── package-lock.json
+├── postcss.config.mjs          # PostCSS 設定
+├── README.md                   # プロジェクトの説明
+└── tsconfig.json               # TypeScript 設定
 
 
