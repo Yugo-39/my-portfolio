@@ -23,7 +23,7 @@
 ときどき出現する **レア柴** を見つけて **図鑑を完成** させよう！
 
 - 🔗 **デモ**：<https://regal-salmiakki-afe98b.netlify.app/>
-- 🧑‍💻 **リポジトリ**：<https://github.com/Yugo-39/TS -siba -app>
+- 🧑‍💻 **リポジトリ**：<https://github.com/Yugo-39/TS-siba-app/>
 
 ### 使用技術
 Next.js / React / TypeScript / Tailwind CSS / Lucide Icons / Framer Motion
