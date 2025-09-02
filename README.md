@@ -114,9 +114,6 @@ npm run dev
 # http://localhost:3000 を開く
 
 ---
-📸 スクリーンショット
-![Home](./public/images/hero.png)
-![Works](./public/images/works.png)
-![Skills](./public/images/skills.png)
+
 
 
